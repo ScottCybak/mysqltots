@@ -1,0 +1,29 @@
+{
+	"name": "mysqltots",
+	"version": "0.0.1",
+	"description": "MySQL to TypeScript is a lightweight way of generating interfaces based on your database schema",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"mysqltots": "bin/mysqltots"
+	},
+	"keywords": [
+		"mysql",
+		"typescript",
+		"ts",
+		"interface",
+		"schema",
+		"cli",
+		"mysqltots"
+	],
+	"author": "Scott Cybak <scott.cybak@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"arg": "^4.1.1",
+		"esm": "^3.2.25",
+		"inquirer": "^7.0.0",
+		"mysql": "^2.17.1"
+	}
+}
