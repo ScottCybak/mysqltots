@@ -45,9 +45,9 @@ export namespace mytestdb {
 
 # Installation
 
-`npm install --save-global mysqltots`
+`npm install`
 
-run `link mysqltots` if you need it available 
+`link mysqltots`
 
 # Usage
 
